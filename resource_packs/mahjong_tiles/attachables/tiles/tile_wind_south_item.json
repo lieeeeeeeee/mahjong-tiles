@@ -1,0 +1,28 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "mahjong:tile_wind_south_item",
+      "materials": {
+        "default": "entity_alphatest",
+        "enchanted": "entity_alphatest_glint"
+      },
+      "textures": {
+        "default": "textures/mahjong_tile/items/tiles/tile_wind_south",
+        "enchanted": "textures/misc/enchanted_item_glint"
+      },
+      "geometry": {
+        "default": "geometry.mahjong_tile_rightItem"
+      },
+      "animations": {
+        "hold": "animation.mahjong_tile_rightItem.hold"
+      },
+      "scripts": {
+        "animate": [
+          "hold"
+        ]
+      },
+      "render_controllers": [ "controller.render.mahjong_tile_rightItem" ]
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "§lMahjong §aTiles",
+    "description": "",
+    "uuid": "079c51b0-404a-45cd-a39d-978ed872d114",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 20, 80]
+  },
+  "modules": [ 
+    { 
+      "description": "Mahjong Tiles Behavior Pack", 
+      "type": "data", 
+      "uuid": "14b1eea9-305a-4031-bb85-82362ba1a5df", 
+      "version": [ 1, 0, 0 ] 
+    },
+    {
+      "description": "Script resources",
+      "language": "javascript",
+      "type": "script",
+      "uuid": "92908f8a-34f9-4ad7-b324-1587e718cf57",
+      "version": [
+        1,
+        0,
+        0
+      ],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.11.0-beta"
+    },
+   { 
+    "uuid": "ab228478-735d-4fa3-be86-0c4f4e20673e", 
+    "version": [ 1, 0, 0 ] 
+   } 
+  ] 
+}

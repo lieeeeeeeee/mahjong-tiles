@@ -1,0 +1,24 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "§lMahjong §6Tile",
+    "description": "",
+    "uuid": "9105870d-4e33-48d9-b4e7-327cede9cdf4",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 20, 70]
+  },
+  "modules": [
+    {
+      "description": "Mahjong Tile Resource Pack",
+      "type": "resources",
+      "uuid": "57e3e9a0-cdc7-4e44-989b-147a7b8f4441",
+      "version": [1, 0, 0]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "4ed23818-12be-4579-a712-bd9cfc039890",
+      "version": [1, 0, 0]
+    }
+  ]
+}
